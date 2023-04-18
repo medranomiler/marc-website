@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="min-h-screen p-4 sm:p-8 sm:py-36 py-36 flex flex-col items-center">
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
-            <h1 className="text-2xl md:text-3xl font-bold mb-16">
+            <h1 className="text-3xl md:text-4xl font-bold mb-16">
                 About
             </h1>
             <p className="leading-8 ">
