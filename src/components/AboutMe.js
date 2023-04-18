@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className="min-h-screen p-4 sm:p-8 sm:py-36 py-36 flex flex-col items-center">
+    <div className="min-h-screen p-4 sm:p-8 sm:py-36 py-36 flex flex-col items-center z-98">
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-3xl md:text-4xl font-bold mb-16">
                 About
@@ -21,7 +21,7 @@ const AboutMe = () => {
             </p>
         </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
-            <figure className="p-8 bg-slate-100 mb-4">
+            <figure className="p-8 bg-slate-200 mb-4">
                 <img src="https://media.licdn.com/dms/image/C4E03AQGPRZA9m18lDA/profile-displayphoto-shrink_400_400/0/1602986996229?e=1687392000&v=beta&t=KRfJDcrSv_AuV6w3ZMMVG0Z_Dg7nybJtT_sd_j2uDp8" className="shadow-slate-800 shadow-lg"/>
             </figure>
             <figcaption className="font-light italic">photo caption</figcaption>

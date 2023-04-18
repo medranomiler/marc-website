@@ -5,8 +5,11 @@ import Footer from "../components/Footer"
 const About = () => {
   return (
 <>
-<AboutMe/>
+<div className="max-w-screen relative">
+<div className="absolute top-0 left-0 w-full h-full bg-[url('../../public/genesisColored.svg')] opacity-[0.05] bg-image object-cover"/>
+<AboutMe className="z-98"/>
 <Footer />
+</div>
 </>
   )
 }

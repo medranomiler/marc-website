@@ -7,7 +7,7 @@ const Footer = () => {
   const router = useRouter()
 
   return (
-    <div className="flex justify-center items-center text-black py-8 max-w-full">
+    <div className="flex justify-center items-center text-black py-8 max-w-full z-99">
 
       { router.pathname === "/" && (<>
         <Link href="/">
