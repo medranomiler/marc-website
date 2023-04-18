@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from "../components/Footer"
-// import genesisBlock from "../../public/genesisColored.svg"
+// import Footer from "../components/Layout/Footer"
+
 
 const timestamp = Date.now(); // get the current timestamp
 const formattedDate = new Date(timestamp).toLocaleString();
@@ -45,9 +45,9 @@ const Doingnow = () => {
         </div>
       </div>
       <div className="flex justify-evenly">
-        {/* <p className="flex sm:w-2/5">Last Updated {formattedDate}</p> */}
+        <p className="flex sm:w-2/5">Last Updated {formattedDate}</p>
       </div>
-      <Footer />
+      {/* <Footer /> */}
       </div>
   );
 };

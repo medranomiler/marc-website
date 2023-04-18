@@ -60,7 +60,7 @@ const AboutMe = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ullam recusandae. Velit odio suscipit consequatur veniam numquam ab iure eius molestias provident id recusandae incidunt voluptates, enim sint cum dolores, fuga voluptatibus magnam doloremque. Quia quam recusandae tempore, hic ex minima nulla?
             </p>
         </div>
-        <div className="mx-auto w-full md:w-1/2 xl:w-1/3 pb-36">
+        <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center">
             Another Section
             </h1>

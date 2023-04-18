@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer from "../components/Footer"
+
 
 
 const Btcpairs = () => {
   return (
-    <div>
-        < Footer />
+    <div className="max-w-screen py-36 p-4 relative">
+<div className="absolute top-0 left-0 w-full h-full bg-[url('../../public/genesisColored.svg')] opacity-[0.05] bg-image object-cover"/>
     </div>
   )
 }
