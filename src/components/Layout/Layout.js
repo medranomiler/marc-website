@@ -1,6 +1,13 @@
 import Navbar from "./Navbar.js"
 import Footer from "./Footer.js"
 import Head from "next/head"
+import { Montserrat } from 'next/font/google'
+
+const montserrat = Montserrat ({
+  weight: ['300' , '400'],
+  subsets: [ 'latin']
+})
+
 
 const Layout = ({ children }) =>{
   return (
@@ -12,7 +19,7 @@ const Layout = ({ children }) =>{
         <link rel="icon"/>
       </Head>
       <Navbar/>
-      <main>{children}</main>
+      <main className={`${montserrat.className}`}>{children}</main>
       <Footer />
     </>
   );

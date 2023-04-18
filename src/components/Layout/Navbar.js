@@ -5,7 +5,12 @@ import { FaLinkedin } from "react-icons/fa"
 import { FiMail } from "react-icons/fi"
 import Link from "next/link"
 import Image from "next/image"
+import { Montserrat } from 'next/font/google'
 
+const montserrat = Montserrat ({
+  weight: ['300' , '400'],
+  subsets: [ 'latin']
+})
 
 const navigation = [
   { name: 'about', href: '/about', current: false },
@@ -26,7 +31,7 @@ export default function Navbar() {
  
 
   return (
-    <Disclosure as="nav" className="dark:bg-gray-800 bg:white border-b  border-gray-200 dark:border-gray-700">
+    <Disclosure as="nav" className={`${montserrat.className} dark:bg-gray-800 bg:white border-b  border-gray-200 dark:border-gray-700`}>
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
@@ -50,7 +55,7 @@ export default function Navbar() {
                     src=''
                     alt="Your Company"
                   /> */}
-                  <p className="block lg:hidden font-bold text-lg">MARC MCKIRAHAN</p>
+                  <p className="block lg:hidden font-bold text-md">MARC MCKIRAHAN</p>
                   </Link>
                   <Link href="/">
                     {/* <Image
@@ -58,7 +63,7 @@ export default function Navbar() {
                     src=''
                     alt="Your Company"
                   /> */}
-                  <p className="hidden lg:block font-bold text-lg">MARC MCKIRAHAN</p>
+                  <p className="hidden lg:block font-bold text-md">MARC MCKIRAHAN</p>
                   </Link>
                 </div>
                 <div className="hidden md:ml-6 md:block">
