@@ -42,7 +42,7 @@ const ThoughtPage = () => {
             {!loading && Object.keys(thoughtData).length > 0 && (
                 <div className="max-w-screen py-36 p-4 relative flex flex-col items-center lg:m-16 aboutMe">
                     <h1 className="sm:text-4xl text-3xl mb-16">{thoughtData.name}</h1>
-                    <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
+                    <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 leading-8">
                     <p>
                         {thoughtData.content}
                     </p>
