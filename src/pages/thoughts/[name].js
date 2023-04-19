@@ -13,9 +13,9 @@ const ThoughtPage = () => {
 
     useEffect(() => {
         async function parseThought() {
-            const url = `http://localhost:3000/api/thoughtroutes?name=${name}`
+            // const url = `http://localhost:3000/api/thoughtroutes?name=${name}`
 
-            // const url = `https://marc-mckirahan.vercel.app/api/thoughtroutes?name=${name}`
+            const url = `https://marc-mckirahan.vercel.app/api/thoughtroutes?name=${name}`
             const res = await fetch(url)
             const data = await res.json()
 

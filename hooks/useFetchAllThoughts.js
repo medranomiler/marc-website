@@ -10,8 +10,8 @@ const useFetchAllThoughts = () => {
   
     useEffect(() => {
         async function parseThought() {
-            const url = `http://localhost:3000/api/thoughtroutes`
-            // const url = `https://marc-mckirahan.vercel.app/api/thoughtroutes`
+            // const url = `http://localhost:3000/api/thoughtroutes`
+            const url = `https://marc-mckirahan.vercel.app/api/thoughtroutes`
             const res = await fetch(url)
             const data = await res.json()
   
