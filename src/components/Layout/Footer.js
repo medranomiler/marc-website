@@ -19,12 +19,12 @@ const Footer = () => {
         <div className="flex justify-between space-x-2">
 
           <Link href="/" className="flex items-center">
-            <p className="text-xs text-slate-600 font-bold">home</p>
+            <p className="text-xs text-black font-bold">Home</p>
           </Link>
 
           <Link href="/about" className="flex items-center">
-            <p className="text-right text-xs text-slate-400 hover:text-slate-600">about</p>
-            <CgArrowLongRight className="w-4 h-auto text-slate-400 ml-2" />
+            <p className="text-right text-xs text-black hover:text-black">About</p>
+            <CgArrowLongRight className="w-4 h-auto text-black ml-2" />
           </Link>
 
         </div>
@@ -34,17 +34,17 @@ const Footer = () => {
         <div className="flex justify-between space-x-2">
 
           <Link href="/" className="flex items-center">
-            <CgArrowLongLeft className="w-4 h-auto mr-2 text-slate-600" />
-            <p className="text-xs text-slate-400 hover:text-slate-600">home</p>
+            <CgArrowLongLeft className="w-4 h-auto mr-2 text-black" />
+            <p className="text-xs text-black hover:text-black">Home</p>
           </Link>
 
           <Link href="/about" className="flex items-center">
-            <p className="font-bold text-xs text-slate-600">about</p>
+            <p className="font-bold text-xs text-black">About</p>
           </Link>
 
           <Link href="/btcpairs" className="flex items-center">
-            <p className="text-right text-xs text-slate-400 hover:text-slate-600">BTC pairs</p>
-            <CgArrowLongRight className="w-4 h-auto ml-2 text-slate-600" />
+            <p className="text-right text-xs text-black hover:text-black">BTC Pairs</p>
+            <CgArrowLongRight className="w-4 h-auto ml-2 text-black" />
           </Link>
 
         </div>
@@ -56,17 +56,17 @@ const Footer = () => {
         <div className="flex justify-between space-x-2">
 
           <Link href="/about" className="flex items-center">
-            <CgArrowLongLeft className="w-4 h-auto mr-2 text-slate-600" />
-            <p className="text-xs text-slate-400 hover:text-slate-600">about</p>
+            <CgArrowLongLeft className="w-4 h-auto mr-2 text-black" />
+            <p className="text-xs text-black hover:text-black">About</p>
           </Link>
 
           <Link href="/btcpairs" className="flex items-center">
-            <p className="font-bold text-xs text-slate-600">BTC pairs</p>
+            <p className="font-bold text-xs text-black">BTC Pairs</p>
           </Link>
 
           <Link href="/doingnow" className="flex items-center">
-            <p className="text-right text-xs text-slate-400 hover:text-slate-600">doing now</p>
-            <CgArrowLongRight className="w-4 h-auto ml-2 text-slate-600" />
+            <p className="text-right text-xs text-black hover:text-black">Doing Now</p>
+            <CgArrowLongRight className="w-4 h-auto ml-2 text-black" />
           </Link>
 
         </div>
@@ -76,17 +76,17 @@ const Footer = () => {
         <div className="flex justify-between space-x-2">
 
           <Link href="/btcpairs" className="flex items-center">
-            <CgArrowLongLeft className="w-4 h-auto mr-2 text-slate-600" />
-            <p className="text-xs text-slate-400 hover:text-slate-600">BTC pairs</p>
+            <CgArrowLongLeft className="w-4 h-auto mr-2 text-black" />
+            <p className="text-xs text-black hover:text-black">BTC Pairs</p>
           </Link>
 
           <Link href="/doingnow" className="flex items-center">
-            <p className="font-bold text-xs text-slate-600">doing now</p>
+            <p className="font-bold text-xs text-black">Doing Now</p>
           </Link>
 
           <Link href="/thoughts" className="flex items-center">
-            <p className="text-right text-xs text-slate-400 hover:text-slate-600">thoughts</p>
-            <CgArrowLongRight className="w-4 h-auto ml-2 text-slate-600" />
+            <p className="text-right text-xs text-black hover:text-black">Thoughts</p>
+            <CgArrowLongRight className="w-4 h-auto ml-2 text-black" />
           </Link>
 
         </div>
@@ -97,17 +97,17 @@ const Footer = () => {
         <div className="flex justify-between space-x-2">
 
           <Link href="/doingnow" className="flex items-center">
-            <CgArrowLongLeft className="w-4 h-auto mr-2 text-slate-600" />
-            <p className="text-xs text-slate-400 hover:text-slate-600">doing now</p>
+            <CgArrowLongLeft className="w-4 h-auto mr-2 text-black" />
+            <p className="text-xs text-black hover:text-black">Doing Now</p>
           </Link>
 
           <Link href="/thoughts" className="flex items-center">
-            <p className="font-bold text-xs text-slate-600">thoughts</p>
+            <p className="font-bold text-xs text-black">Thoughts</p>
           </Link>
 
           <Link href="/collaborate" className="flex items-center">
-            <p className="text-right text-xs text-slate-400 hover:text-slate-600">collaborate</p>
-            <CgArrowLongRight className="w-4 h-auto ml-2 text-slate-600" />
+            <p className="text-right text-xs text-black hover:text-black">Collaborate</p>
+            <CgArrowLongRight className="w-4 h-auto ml-2 text-black" />
           </Link>
 
         </div>
@@ -118,12 +118,12 @@ const Footer = () => {
         <div className="flex justify-between space-x-2">
 
           <Link href="/thoughts" className="flex items-center">
-            <CgArrowLongLeft className="w-4 h-auto mr-2 text-slate-600" />
-            <p className="text-xs text-slate-400 hover:text-slate-600">thoughts</p>
+            <CgArrowLongLeft className="w-4 h-auto mr-2 text-black" />
+            <p className="text-xs text-black hover:text-black">Thoughts</p>
           </Link>
 
           <Link href="/collaborate">
-            <p className="mx-2 font-bold text-xs text-slate-600">collaborate</p>
+            <p className="mx-2 font-bold text-xs text-black">Collaborate</p>
           </Link>
 
         </div>
