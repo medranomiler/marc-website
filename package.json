@@ -15,7 +15,9 @@
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.17",
     "react-icons": "^4.8.0",
-    "flowbite": "^1.6.4"
+    "flowbite": "^1.6.4",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

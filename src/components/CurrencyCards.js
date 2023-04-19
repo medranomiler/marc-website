@@ -18,12 +18,12 @@ const CurrencyCards = () => {
     <div className="flex flex-wrap justify-center max-w-[1200px]">
     {pairs.map((pair, index) => {
       return (
-        <div key={index} className="sm:w-80 sm:h-36 w-full h-36 bg-gray-800 m-2 p-2">
+        <div key={index} className="sm:w-80 sm:h-36 w-full h-36 bg-gray-200 m-2 p-2 rounded">
 
-          <div className="h-1/3 font-bold text-2xl text-white">
+          <div className="h-1/3 font-bold text-2xl text-black">
             {pair}
           </div>
-          <div className="h-1/3 font-bold text-xl text-white">
+          <div className="h-1/3 font-bold text-xl text-black">
             1 bitcoin = 1 bitcoin
           </div>
           <div className="h-1/3 font-bold text-lg text-green-500">
