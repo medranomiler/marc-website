@@ -41,6 +41,8 @@ export default function Navbar() {
       navigation[i].current = false
     }
   }
+
+  const loggedIn = false
   
 
   return (
@@ -91,7 +93,10 @@ export default function Navbar() {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto  bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-                  <Link href="/">
+                  <Link 
+                  href="/"
+                  onClick={() => setMobileMenuOpen(false)}
+                  >
                   <p className="font-bold text-md">MARC MCKIRAHAN</p>
                   </Link>
             <button
@@ -118,12 +123,20 @@ export default function Navbar() {
                 ))}
               </div>
               <div className="py-6">
-                <Link
-                  href="#"
+                {!loggedIn? <Link
+                  href="/login"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Log in
-                </Link>
+                </Link> :
+                <Link
+                  href="/"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Log out
+                </Link>}
                 <div className="flex flex-1 justify-center mt-4">
           <Link href="https://www.linkedin.com/in/marcmckirahan/">
             <FaLinkedin className="h-8 w-auto mx-4" />
