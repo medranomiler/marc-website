@@ -10,8 +10,7 @@ const formattedDate = new Date(timestamp).toLocaleString();
 
 const Doingnow = () => {
   return (
-    <div className="max-w-screen py-36 p-4 relative">
-      <div className="absolute top-0 left-0 w-full h-full bg-[url('../../public/genesisColored.svg')] opacity-[0.05] bg-image"/>
+    <div className="max-w-screen py-36 p-4 relative aboutMe lg:m-16">
       <div className="flex flex-col items-center relative z-10">
         <div>
           <h1 className="font-bold text-3xl sm:text-4xl mb-16">

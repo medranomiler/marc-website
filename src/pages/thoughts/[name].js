@@ -13,9 +13,9 @@ const ThoughtPage = () => {
 
     useEffect(() => {
         async function parseThought() {
-            // const url = `http://localhost:3000/api/thoughtroutes?name=${name}`
+            const url = `http://localhost:3000/api/thoughtroutes?name=${name}`
 
-            const url = `https://marc-mckirahan.vercel.app/api/thoughtroutes?name=${name}`
+            // const url = `https://marc-mckirahan.vercel.app/api/thoughtroutes?name=${name}`
             const res = await fetch(url)
             const data = await res.json()
 
@@ -36,15 +36,12 @@ const ThoughtPage = () => {
             <Head>
                 <title>{thoughtData.name}</title>
             </Head>
-            {loading && (<div className="h-screen flex justify-center items-center bg-black">
+            {loading && (<div className="h-screen flex justify-center items-center">
                 Loading thought...
             </div>)}
             {!loading && Object.keys(thoughtData).length > 0 && (
-                <div className="h-screen text-2xl text-black">
-                    <p>
-                        {thoughtData.name}
-                    </p>
-                    <br />
+                <div className="max-w-screen py-36 p-4 relative flex flex-col items-center lg:m-16 aboutMe">
+                    <h1 className="sm:text-4xl text-3xl mb-16">{thoughtData.name}</h1>
                     <p>
                         {thoughtData.content}
                     </p>

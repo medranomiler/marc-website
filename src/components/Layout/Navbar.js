@@ -116,14 +116,14 @@ export default function Navbar() {
                     key={item.name}
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
                   </Link>
                 ))}
               </div>
               <div className="py-6">
-                {!loggedIn? <Link
+                {/* {!loggedIn? <Link
                   href="/login"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   onClick={() => setMobileMenuOpen(false)}
@@ -136,16 +136,16 @@ export default function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Log out
-                </Link>}
+                </Link>} */}
                 <div className="flex flex-1 justify-center mt-4">
           <Link href="https://www.linkedin.com/in/marcmckirahan/">
-            <FaLinkedin className="h-8 w-auto mx-4" />
+            <FaLinkedin className="h-5 w-auto mx-4" />
           </Link>
           <Link href="https://t.me/marcmckirahan">
-            <FaTelegramPlane className="h-8 w-auto mx-4" />
+            <FaTelegramPlane className="h-5 w-auto mx-4" />
           </Link>
           <Link href="mailto:marcmckirahan@gmail.com">
-            <FiMail className="h-8 w-auto mx-4" />
+            <FiMail className="h-5 w-auto mx-4" />
           </Link>
         </div>
               </div>

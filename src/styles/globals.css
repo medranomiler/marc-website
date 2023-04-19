@@ -5,3 +5,7 @@
 .absolute.bg-image {
     pointer-events: none;
   }
+
+  .aboutMe{
+    background-image: url('../../public/genesisColored.svg');
+  }

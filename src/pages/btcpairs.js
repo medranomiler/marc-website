@@ -5,7 +5,7 @@ const Btcpairs = () => {
 
 
   return (
-    <div className="max-w-screen py-36 p-4 flex flex-col items-center">
+    <div className="max-w-screen py-36 p-4 flex flex-col items-center lg:m-16 aboutMe">
 
       <div className="max-w-[800px] h-12 flex space-x-4 py-3 px-6 mb-4 text-black">
         <p>1D</p>

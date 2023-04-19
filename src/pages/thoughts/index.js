@@ -1,47 +1,26 @@
 import React from 'react'
 import Link from "next/link"
-import { useEffect, useState } from 'react'
+import useFetchAllThoughts from '../../../hooks/useFetchAllThoughts'
 
 
 
 const Thoughts = () => {
-  const [thoughtData, setthoughtData] = useState({})
-  const [loading, setLoading] = useState(true)
-
-
-
-  useEffect(() => {
-      async function parseThought() {
-          // const url = `http://localhost:3000/api/thoughtroutes`
-          const url = `https://marc-mckirahan.vercel.app/api/thoughtroutes`
-          const res = await fetch(url)
-          const data = await res.json()
-
-          const thoughtPostData = data.map(thought => ({
-              name: thought.name,
-              content: thought.content,
-              date: thought.date
-          }))
-          console.log(thoughtPostData)
-          setthoughtData(thoughtPostData)
-          setLoading(false)
-      }
-      parseThought()
-  }, [])
+  const [thoughtData, loading] = useFetchAllThoughts()
 
   return (
-<div className="max-w-screen py-36 p-4 relative flex flex-col items-center">
-  <h1 className="text-2xl text-center font-bold mb-4">Thoughts</h1>
-  {Object.keys(thoughtData).length > 0 && thoughtData.map((thought) => {
-    return (
-    <div key={thought.name} className="flex space-x-8 my-4">
-    <h2 className="text-xl"><Link href={`/thoughts/${thought.name}`}>{thought.name}</Link></h2><p className="text-lg">{thought.date}</p>
-  </div>)
-})}
-  
-<div className="absolute top-0 left-0 w-full h-full bg-[url('../../public/genesisColored.svg')] opacity-[0.05] bg-image object-cover"/>
-    </div>
-  )
+    <>
+      <div className="max-w-screen py-36 p-4 relative flex flex-col items-center lg:m-16 aboutMe">
+        <h1 className="font-bold text-3xl sm:text-4xl mb-16">Thoughts</h1>
+        {loading ? <p>Loading thoughts</p> : (<>
+          {Object.keys(thoughtData).length > 0 && thoughtData.map((thought) => {
+            return (
+              <div key={thought.name} className="min-w-[300px] md:min-w-[600px] max-w-1/2 flex justify-between my-4">
+                <h2 className="md:text-xl text-sm"><Link href={`/thoughts/${thought.name}`}>{thought.name}</Link></h2><p className="md:text-lg text-sm">{thought.date}</p>
+              </div>)
+          })}
+        </>)}
+      </div>
+    </>)
 }
 
 export default Thoughts
