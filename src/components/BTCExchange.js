@@ -16,7 +16,7 @@ const BTCExchangeRates = () => {
           'X-RapidAPI-Host': 'currency-exchange.p.rapidapi.com'
         }
       };
-      console.log(process.env.EXCHANGE_KEY)
+
       const btcPairs = ['USD', 'TRY', 'JPY','CNY', 'RUB', 'LBP', 'EUR', 'GBP', 'KRW'];
       const requests = btcPairs.map((pair) => {
         const url = `https://currency-exchange.p.rapidapi.com/exchange?from=BTC&to=${pair}&q=1.0`;
@@ -24,6 +24,7 @@ const BTCExchangeRates = () => {
       });
 
       const responses = await Promise.all(requests);
+      console.log(responses)
       const rates = {};
       btcPairs.forEach((pair, i) => {
         rates[pair] = responses[i];
