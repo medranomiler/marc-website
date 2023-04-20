@@ -1,39 +1,33 @@
 import React from 'react'
+import bitcoinExchange from '@/lib/bitcoinExchange'
 
 const CurrencyCards = () => {
-  const pairs = [
-    "U.S. Dollar (USD)",
-    "Euro (EUR)",
-    "Japanese Yen (JPY)",
-    "Lebanese Pound (LBP)",
-    "Chinese Yuan (CNY)",
-    "Turkish Lira (TRY)",
-    "Russian Ruble (RUB)",
-    "Russian Ruble (RUB)",
-    "Russian Ruble (RUB)",
+  const [exchangeRates, loading] = bitcoinExchange()
 
-  ]
-
-  return (
+  return (<>
+    {loading? ( <>
+      <p>loading</p> 
+     </> ) : ( <>
     <div className="flex flex-wrap justify-center max-w-[1200px]">
-    {pairs.map((pair, index) => {
-      return (
-        <div key={index} className="sm:w-80 sm:h-36 w-full h-36 bg-gray-200 m-2 p-2 rounded">
-
-          <div className="h-1/3 font-bold text-2xl text-black">
-            {pair}
+      {Object.entries(exchangeRates).length > 0 &&
+        Object.entries(exchangeRates).map(([pair, rate]) => (
+          <div
+            key={pair}
+            className="sm:w-80 sm:h-36 w-full h-36 bg-gray-200 m-2 p-2 rounded"
+          >
+            <div className="h-1/3 font-bold text-2xl text-black">{pair}</div>
+            <div className="h-1/3 font-bold text-xl text-black">{`1 BTC = ${Number(
+              rate
+            ).toFixed(2)}`}</div>
+            <div className="h-1/3 font-bold text-lg text-green-500">
+              + 0.00 (00,000) all time
+            </div>
           </div>
-          <div className="h-1/3 font-bold text-xl text-black">
-            1 bitcoin = 1 bitcoin
-          </div>
-          <div className="h-1/3 font-bold text-lg text-green-500">
-            + 0.00 (00,000) all time
-          </div>
-        </div>
-      )
-    })}
-  </div>
-  )
+        ))}
+    </div>
+    </>
+    )}
+  </>)
 }
 
 export default CurrencyCards

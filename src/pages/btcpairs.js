@@ -1,6 +1,6 @@
 import React from 'react'
 import CurrencyCards from "../components/CurrencyCards"
-import BTCExchangeRates from '@/components/BTCExchange'
+// import BTCExchangeRates from '@/components/BTCExchange'
 
 const Btcpairs = () => {
 
@@ -17,7 +17,7 @@ const Btcpairs = () => {
         <p>5Y</p>
         <p>Max</p>
         </div> 
-      <BTCExchangeRates />
+      <CurrencyCards />
       {/* <div className="max-w-[800px] h-12 flex space-x-4 py-3 px-6 mb-4 text-black">
         <p>1D</p>
         <p>5D</p>
