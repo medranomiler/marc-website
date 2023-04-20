@@ -10,8 +10,8 @@ const useFetchAllThoughts = () => {
   
     useEffect(() => {
         async function parseThought() {
-            // const url = `http://localhost:3000/api/thoughtroutes`
-            const url = `https://www.marcmckirahan.com/api/thoughtroutes`
+            const url = `http://localhost:3000/api/thoughtroutes`
+            // const url = `https://www.marcmckirahan.com/api/thoughtroutes`
             const res = await fetch(url)
             const data = await res.json()
   
