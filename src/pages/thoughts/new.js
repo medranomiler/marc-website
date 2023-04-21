@@ -1,12 +1,15 @@
 import React from 'react'
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Router from "next/router"
+import Link from "next/link"
+
 
 const NewThought = () => {
     const [name, setName] = useState('');
     const [content, setContent] = useState('');
     const [date, setDate] = useState("2023-01-31");
     const [errorMessage, setErrorMessage] = useState('');
+    const [loggedIn, setLoggedIn] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -25,8 +28,16 @@ const NewThought = () => {
         }
       };
 
+      useEffect(() => {
+        const token = localStorage.getItem('token');
+        if (token) {
+            setLoggedIn(true);
+        }
+    }, []);
+
   return (
     <div className="max-w-screen py-36 p-4 relative flex flex-col items-center lg:m-16 aboutMe">
+      {loggedIn? (<>
     <h1 className="text-3xl">Create New Thought</h1>
         <form className="p-4 relative flex flex-col items-center md:w-1/3 lg:w-1/2 w-full"
         onSubmit={handleSubmit}>
@@ -52,6 +63,12 @@ const NewThought = () => {
    </button>
         </form>
         {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+        </>) : (
+          <>
+          <h1 className="text-2xl">Login to post a new thought</h1>
+          <p className="text-blue-400 hover:text-blue-700"><Link href="/login">go to login page</Link></p>
+          </>
+        )}
     </div>
   )
 }

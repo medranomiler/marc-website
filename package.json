@@ -11,8 +11,10 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.17",
+    "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
     "flowbite": "^1.6.4",
+    "jsonwebtoken": "^9.0.0",
     "mongodb": "^4.13.0",
     "mongoose": "^6.8.3",
     "next": "13.3.0",
