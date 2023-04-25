@@ -14,8 +14,8 @@ const ThoughtPage = () => {
 
     useEffect(() => {
         async function parseThought() {
-            // const url = `http://localhost:3000/api/thoughtroutes?name=${name}`
-            const url = `https://www.marcmckirahan.com/api/thoughtroutes?name=${name}`
+            const url = `http://localhost:3000/api/thoughtroutes?name=${name}`
+            // const url = `https://www.marcmckirahan.com/api/thoughtroutes?name=${name}`
             const res = await fetch(url)
             const data = await res.json()
 
@@ -45,12 +45,13 @@ const ThoughtPage = () => {
                     <h1 className="sm:text-4xl text-3xl mb-16">{thoughtData.name}</h1>
                     <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 leading-8">
                     <p>
+                        {thoughtData.date}
+                    </p>
+                    <p>
                         {thoughtData.content}
                     </p>
                     <br />
-                    <p>
-                        {thoughtData.date}
-                    </p>
+
                     </div>
                 </div>
                 <AllThoughts/>
