@@ -4,7 +4,7 @@ import AboutMe from '../components/AboutMe'
 const About = () => {
   return (
 <>
-<div className="max-w-screen relative lg:m-16 aboutMe">
+<div className="max-w-screen relative lg:mt-24 lg:ml-16 lg:mr-16 aboutMe">
 <AboutMe className="z-99"/>
 </div>
 </>

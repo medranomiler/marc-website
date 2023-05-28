@@ -3,7 +3,7 @@ import React from 'react'
 
 const Collaborate = () => {
   return (
-    <div className="max-w-screen p-4 py-36 flex flex-col items-center relative lg:m-16 aboutMe">
+    <div className="max-w-screen p-4 py-36 flex flex-col items-center relative lg:mt-24 lg:ml-16 lg:mr-16 aboutMe">
       <div className="flex flex-col items-center mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
           <h1 className="font-bold text-3xl sm:text-4xl mb-16 text-slate-800">
             Collaborate

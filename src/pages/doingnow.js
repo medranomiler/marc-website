@@ -8,7 +8,7 @@ const formattedDate = new Date(timestamp).toLocaleString();
 const Doingnow = () => {
   return (
 
-<div className="max-w-screen p-4 pt-12 flex-col items-center relative lg:m-10 aboutMe">
+<div className="max-w-screen p-4 pt-12 flex-col items-center relative lg:mt-24 lg:ml-16 lg:mr-16 aboutMe">
   <div className="flex flex-col text-center mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
 
   </div>
@@ -46,8 +46,8 @@ const Doingnow = () => {
     </div>
   </div>
 
-  <div class="flex justify-evenly items-center mb-24">
-    <p class="flex sm:w-1/3 items-center mb-12 text-slate-700 text-sm">Last Updated {formattedDate}</p>
+  <div class="flex justify-center items-center mb-24">
+    <p class="flex text-slate-700 text-sm text-center mb-24">Last Updated {formattedDate}</p>
   </div>
 </div>
   );
