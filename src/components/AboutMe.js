@@ -1,4 +1,6 @@
 import React from 'react'
+import costaricasurf from "../images/costaricasurf.jpeg"
+import Image from "next/image"
 
 const AboutMe = () => {
   return (
@@ -63,8 +65,7 @@ const AboutMe = () => {
 
         <div className="mx-auto w-full mb-24 flex flex-col items-center">
             <figure className="p-8 bg-slate-200 mb-4 z-99">
-                <img src="https://lh3.googleusercontent.com/pw/AJFCJaUNhOTk5AHzfI3xScxAqYxAjK8mUd8UnBWFoM75BBVVRf9rshjEmUb6ZVmiAAxab_JxyyZ_2_Qmt3itlgkIeZ_6bMRyGdECiXShVzznrMoIjxB6rmc8lWg5TRrhnAEIYHVKusdFTthAbzkPPgUGZ9yYdmaoGrBH09u_g3xa2tp-yORGfw5gm6cf_5WM0RdrxtICC9i_wk0zIFo9ib0IEFRvSF3y4DBhE90rfFCbCR-32aIzo0sXhYp1CTaJEM8pIiqShvWOqfdj0OUqXF314wVqVKwxBqbJPu3lSPhsFwH_TUma_wV5Ct05UH9aVcat4_3HgiXvccIHKsCB7JXczAYndRyNRgxpq3nszXMQHBSsdsqro8bqMrwfEzktjRcX93j9OzLpZjVtHvr1wlcyfUqjCxz01AttXkKsWM3D5xqoRnTYy9tblR3HOS6Wdzc4VIkG7q6uJlxxrRYnaT3emeAna_DtOXTxWraVE53HQQL2sWjmsx3EQsDNwc7KwWWx6sGVyJc2rt5dJbNuDw9sGRtHKtaCNpMJhJ4SH3h9-W27CYpRfy9Av0R9cWS01b-mVx2GUCbMTeVKQXZrWOMC76Vf6yGCKgOAWepR1zxETA2pO0Or259Zm7gysSCKPtAMGoGVphv6BkKMB9xuv6Q5VxdVCPpvBWNc6J36eHBx7OxbHCAPwu-F8IREFaeCtcSNKNj2dwdSv5v3rFRI8Rjgl3G-aV7CfwXVaNk6BBsnbh7R2rEfJJhIBl01mVG7i82-fR41u5S_b0LVO1ZCSR-1mf1g3DfIJc4NmllpbnFEckRXHnJ0qjb02GxUWmHdoQ1pEo7j9zA-W0-kp25B1fIs82oNkmbXCGAO1UL7dWhzwhGNZ1Umw621Awqz2DSwquVVKhCkuSPIAYMS2_0gvCYSPiJvNLvbhU32tDbLyzDGgPZvvK2vfWrjBfeeOxAk4SRD9UBGo24Dj3y8vSLN6z6oKVwg1okO7w=w424-h717-s-no?authuser=0"
-                className="shadow-slate-700 shadow-lg"/>
+                <Image src={costaricasurf} />
             </figure>
             <figcaption className="font-light italic text-slate-600">playa avellanas, costa rica, circa 2022</figcaption>
 </div>
