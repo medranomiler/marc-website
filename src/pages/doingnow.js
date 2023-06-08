@@ -13,11 +13,11 @@ const Doingnow = () => {
 
   </div>
     <div className="mx-auto w-full md:w-1/2 xl:w-1/3 items-left mb-24">
-    <h1 className="text-3xl md:text-4xl font-bold text-center mb-16 text-slate-800">
+    <h1 className="text-3xl md:text-4xl font-bold text-center mb-16 text-slate-700">
       What I am doing now
     </h1>
     <div>
-      <ul class="leading-8 mt-1 text-left list-disc text-slate-800">
+      <ul class="leading-8 mt-1 text-left list-disc text-slate-700">
         <li class="my-4">
           Currently reside at Kraken Digital Asset Exchange. My team works to ensure we remain the most client-centric and secure exchange in the world
         </li>
@@ -47,7 +47,7 @@ const Doingnow = () => {
   </div>
 
   <div class="flex justify-center items-center mb-24">
-    <p class="flex text-slate-700 text-sm text-center mb-24">Last Updated {formattedDate}</p>
+    <p class="flex text-slate-600 text-sm text-center mb-24">Last Updated {formattedDate}</p>
   </div>
 </div>
   );

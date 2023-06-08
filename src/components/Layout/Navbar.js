@@ -50,13 +50,13 @@ export default function Navbar() {
       <nav className={`${montserrat.className} flex items-center justify-between p-6 lg:px-8 border-b  border-zinc-200`} aria-label="Global">
         <div className="flex lg:flex-1">
                   <Link href="/">
-                  <p className="font-bold text-md text-slate-800">MARC MCKIRAHAN</p>
+                  <p className="font-bold text-md text-slate-700">MARC MCKIRAHAN</p>
                   </Link>
         </div>
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-800"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-700"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -66,7 +66,7 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:gap-x-12 lg:flex-wrap">
           {navigation.map((item) => (
             <Link key={item.name} href={item.href} className={classNames(
-              item.current ? 'font-bold text-slate-800' : 'text-slate-800 hover:font-bold',
+              item.current ? 'font-bold text-slate-700' : 'text-slate-700 hover:font-bold',
               'rounded-md px-3 py-1 lg:px-3 lg:py-2 text-sm'
             )}
             aria-current={item.current ? 'page' : undefined}
@@ -75,7 +75,7 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end text-slate-800">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end text-slate-700">
           <Link href="https://www.linkedin.com/in/marcmckirahan/">
             <FaLinkedin className="sm:h-6 sm:w-6 h-5 w-5 mx-2" />
           </Link>
@@ -97,11 +97,11 @@ export default function Navbar() {
                   href="/"
                   onClick={() => setMobileMenuOpen(false)}
                   >
-                  <p className="font-bold text-md text-slate-800">MARC MCKIRAHAN</p>
+                  <p className="font-bold text-md text-slate-700">MARC MCKIRAHAN</p>
                   </Link>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-slate-800"
+              className="-m-2.5 rounded-md p-2.5 text-slate-700"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
@@ -116,7 +116,7 @@ export default function Navbar() {
                     key={item.name}
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-slate-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-slate-700 hover:bg-gray-50"
                   >
                     {item.name}
                   </Link>
