@@ -93,7 +93,7 @@ const AboutMe = () => {
         </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
-            Where Do We Go
+            What's Next
             </h1>
             <p className="leading-8 text-slate-700">
             Saddle up.
