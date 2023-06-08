@@ -15,11 +15,11 @@ export default function Home() {
     </h1>
 
     <p class="leading-8 mt-1 text-sm text-center text-slate-800">
-    &#8226; Perpetual Student &#8226; Bitcoin Education & Consultant &#8226;
+    &#8226; Perpetual Student &#8226; Bitcoin Education & Consultant &#8226;       &#8226; Finánce &#8226; Technology &#8226; Keepin' it real since the 90s &#8226;
    </p>
 
     <p class="leading-8 mt-12 text-left text-slate-800">
-    I like doing things. Things that mostly meet at the intersection of bitcoin, technology, economics, and finance. With a deep-rooted passion for these fields, I enjoy exploring their dynamic relationships and uncovering new insights. As someone who naturally leans against the grain, I possess a unique lens through which I analyze and interpret evolving landscapes and the transformations Bitcoin has on society.
+    I like doing things. Things that mostly meet at the intersection of bitcoin, technology, economics, history, and finánce. With a deep-rooted passion for these fields, I enjoy exploring their dynamic relationships and uncovering new insights. As someone who naturally leans against the grain, I possess a unique lens through which I analyze and interpret evolving landscapes and the transformations Bitcoin has on society.
     </p>
   
     <p class="leading-8 mt-4 mb-6 text-left text-slate-800">

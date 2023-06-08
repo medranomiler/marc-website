@@ -19,7 +19,7 @@ const Doingnow = () => {
     <div>
       <ul class="leading-8 mt-1 text-left list-disc text-slate-800">
         <li class="my-4">
-          Currently reside at Kraken Digital Asset Exchange. My team works to ensure we remain the most client-centric exchange in the world
+          Currently reside at Kraken Digital Asset Exchange. My team works to ensure we remain the most client-centric and secure exchange in the world
         </li>
         <li class="my-4">
           Satisfying my passion for finánce and preparing to obtain the CFA certification
