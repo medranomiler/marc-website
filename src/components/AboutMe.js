@@ -1,5 +1,6 @@
 import React from 'react'
 import costaricasurf from "../images/costaricasurf.jpeg"
+import beachwalk from "../images/beachwalk.jpg"
 import Image from "next/image"
 
 const AboutMe = () => {
@@ -101,7 +102,7 @@ const AboutMe = () => {
             </p>
             <div className="mx-auto w-full flex flex-col items-center">
   <figure className="p-8 bg-slate-200 mb-3 z-99 mt-10">
-            <img src="https://lh3.googleusercontent.com/pw/AJFCJaXREwaMIblx9erg6GfIZ7Wv1pTYDHitusa6OwjhA2aok5n3jHTh0wWAOCMeg5pySpwy3Vw68PUi7_6ZeiHk9f0AyHDBdcxBs-Bf8vcnAkZE0jutUC-QaUNwmSD_ekoiJx_FaYGnIY3I70Exh83FDKoCPHx9iUzNWA-6p18tKCLJXoH-LucM9oSn2Gw8ZGIryjiBOb70eavtknFunHkeUSerzvIdZxqjLLOt85XI99EAcV0eSOe48y7DFL0IZ8x3OwiNH2P-hZKFJ23rfQ0s4X2s1X94y33uIxP47XCbyLRbI2j3g_iTiXAKT85W7ilXKr6l0q7NOqOLRP1zEnsCES_EbuWrLcGAOWnzoPm3hLK59fhRSj6e5L0USvj29Y1zH_kH8aKpoECpUJVipBaXAuODKZP1xnBlM8vDZCWeUJvWABHy51Xva7YoYAyJmrszcMBhb2Revy8NQSO3rbPbR3tSe9eFeSiz1OeGWybKMrWLu4fVrDrSxmip0j_-HbOEigtGWV7HtueKwpnV46rwUK6CXa2Gbt0HPbhpBFlR72T96qsoaVxavC2DFO02XnT2MaZbykSGwa9DWbHdxBHyQ7Zwni95sfXQ7sioE9Ab6RdA-fPl_2dpnQHlnwrWnbpK0snr9IdNHAy-9y58EgMgVAnLn7KO3trRTQJeW-0csNgl01_Ddg4qL72T0jWeyQJDrz2HcPxqiw2ObmXUwIBAzc2PVNjaO-glG__4pICeJzDmyKFYzpsCJFVmtuKoLmJ6lQFhj9SeUFUuhdOGXnVFD5u0M1bSvi3ebyrbOXvbdPCSvGPgdv5BN0MgEQW0Q7dYIEvYTywo1i1htmU80L5P0qWFjcUGY-PTHP16vew8WfCKA3Lz4_BVyaFWxo8DKsjGgUYQ0z7EXigCy8kFGbpuF3AQfiPebXTVjPnUDUl4O7IgVpeN0Za8UVr3UEeN-GL1eI8XZb19w8jiASQ8k9lMXSBYqXLh9A=w536-h714-s-no?authuser=0" />
+            <Image src={beachwalk} />            
             </figure>
             <figcaption className="font-light italic text-slate-600">some beach, somewhere</figcaption>
   </div>
