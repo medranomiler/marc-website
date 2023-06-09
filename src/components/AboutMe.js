@@ -58,7 +58,7 @@ const AboutMe = () => {
         Fast forward to a year later, I executed perfectly on my plan. The crowd marveled at the majestic sight of the elephants, completely unaware of the hidden purpose behind my choice. Behind the costume's mask, I grinned mischievously, reveling in the satisfying secrecy of my mission accomplished, keeping my identity concealed.
         <br />   
         <br />
-        I have lived much of my life in this same way. I believe that in a world of captivating narratives and a kaleidoscope of perspectives, the unspoken stories are often the best. The enigmatic paths are where real value is found and oftentimes the precipice of our most extraordinary discoveries. This is my nature, and what drew me to the story of Satoshi Nakamoto, ultimately leading me to where I am today.        
+        I have lived much of my life in this same way. I believe that in a world of captivating narratives and a kaleidoscope of perspectives, the unspoken stories are often the best. The enigmatic paths are where real value is found and oftentimes the precipice of our most extraordinary discoveries. This is my nature, and what drew me to the story of <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto" class="underline-link text-slate-950"> Satoshi Nakamoto</a>, ultimately leading me to where I am today.        
         <br/>
         <br />
         As a bona fide 90s kid, South Texas near the Texas/Mexico border served as my playground for the first ten years of my life.  I was happiest on the beach, surfing, fishing, golfing, and building things. I was a blessed kid and found joy in many things. 

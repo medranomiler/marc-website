@@ -11,10 +11,10 @@ const Collaborate = () => {
           </h1>
           <p class="leading-8 text-slate-700 mb-18">
   The free and open sharing of ideas is one of the most valuable things we have in common and without it, we would not be here today. I value meaningful connections, building relationships and engaging in genuine discussion. I am always looking to expand my network, meet new people, and create lasting connections. If you would like to say hello, have something to share, or collaborate, feel free to find me on  
-  <a href="https://www.linkedin.com/in/marcmckirahan/" class="underline-link text-slate-900"> LinkedIn</a>, 
-  <a href="https://t.me/marcmckirahan" class="underline-link text-slate-900"> Telegram</a>, 
+  <a href="https://www.linkedin.com/in/marcmckirahan/" class="underline-link text-slate-950"> LinkedIn</a>, 
+  <a href="https://t.me/marcmckirahan" class="underline-link text-slate-950"> Telegram</a>, 
   or 
-  <a href="mailto:marcmckirahan@gmail.com" class="underline-link text-slate-900"> Email</a>.
+  <a href="mailto:marcmckirahan@gmail.com" class="underline-link text-slate-950"> Email</a>.
 </p>
 <div className="mx-auto w-full flex flex-col items-center">
             <Image src={keeprunning} />
