@@ -25,7 +25,7 @@ const Doingnow = () => {
           Satisfying my passion for finánce and preparing to obtain the CFA certification
         </li>
         <li class="my-4">
-          Developing a functional and educational bitcoin product line for the younger generations. More to come on this soon.
+          Developing a functional and educational bitcoin product line for the younger generations. More to come on this soon
         </li>
         <li class="my-4">
           Refining my data/database skillset and exploring data visualization software and tools
