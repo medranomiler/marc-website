@@ -40,10 +40,10 @@ const AboutMe = () => {
         Several years back, as I sat in front of a few thousand coworkers during a live all-hands meeting, I was asked the question: “So Marc, what's your greatest weakness?”            
         <br />
         <br />
-        The room fell silent and as I mustered up the courage to confess, I leaned in wearing my finest deadpan expression and responded with, ‘Crafting an alluring image of myself to others.’ Cue the collective sigh of relief from the crowd, that my long-held oversharing tendencies were finally out in the open.        
+        The room fell silent and as I mustered up the courage to confess, I leaned in wearing my finest deadpan expression and responded with, ‘Talking about myself’. Cue the collective sigh of relief from the crowd, that my long-held oversharing tendencies were finally out in the open.        
         <br/>
         <br />
-        I oftentimes find more interest in the things that aren't said, than the things that are. Which might explain why I struggle at getting the right things said, in the best way. So here we are, sitting at the black-hole of my ‘about me’ bio and another attempt at weaving an intriguing narrative about my persona. 
+        I oftentimes find more interest in the things that aren't said, rather than the things that are. Which might explain why I am bad at communicating the enigma within. So here we are, sitting at the black-hole of my ‘about me’ bio and another attempt at weaving an intriguing narrative about my persona. 
         <br/>
         <br />   
         So lets start with a short story I've never shared...
@@ -52,16 +52,16 @@ const AboutMe = () => {
         I would like to take you back to my kindergarten days as I eagerly awaited our end-of-year 'circus' performance, where every classmate would transform into a whimsical character. Now, a few months earlier when the teacher asked what role we wanted to play, most kids chose the daring acrobat, the strong man, or the charming magician. But not me. Oh no, I had my eyes set on a different prize: the mighty, majestic elephant. Many were intrigued with my choice but I didn’t dare share the true reason for my selection.
         <br />   
         <br />
-        You see, the year before, as a wide-eyed observer, I witnessed the grand spectacle of the graduating kindergarten class' Circus. There, in all their glory, were the elephants, parading around in elaborate costumes that completely covered their body. In that moment, a genius plan formed in my mischievous mind. I knew exactly why I wanted to be the elephant—so no one, absolutely no one, could catch a glimpse of my face and my identity. I was determined to carry out my secret mission, completely hidden behind that formaldehyde soaked elephant costume. 
+        You see, the year before, as a wide-eyed observer, I witnessed the grand spectacle of the graduating kindergarten class' Circus. There, in all their glory, were the elephants, parading around in elaborate costumes that completely covered their body. In that moment, a genius plan formed in my mischievous mind. I knew exactly why I wanted to be the elephant—so no one, absolutely no one, could catch a glimpse of my identity. I didn’t understand why I wanted this, but I did understand that it was valuable to me. I was determined to carry out my secret mission, completely hidden behind that formaldehyde soaked elephant costume. 
         <br />   
         <br />
         Fast forward to a year later, I executed perfectly on my plan. The crowd marveled at the majestic sight of the elephants, completely unaware of the hidden purpose behind my choice. Behind the costume's mask, I grinned mischievously, reveling in the satisfying secrecy of my mission accomplished, keeping my identity concealed.
         <br />   
         <br />
-        I have lived much of my life in this same way. I believe that in a world of captivating narratives and a kaleidoscope of perspectives, the unspoken stories are often the best. The enigmatic paths are where real value is found and oftentimes the precipice of our most extraordinary discoveries. This is my nature, and what drew me to the story of <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto" class="underline-link text-slate-950"> Satoshi Nakamoto</a>, ultimately leading me to where I am today.        
+        I have lived much of my life in this same way. I believe that in a world of captivating narratives and a kaleidoscope of perspectives, the unspoken stories are often the best. We live in a world driven by the relentless race to be heard, and maybe those competing are in the new rat race. Deep value isn't found there, but in the things that aren't for sale. The enigmatic paths are where real value is found and oftentimes the precipice of our most extraordinary discoveries. This is my nature, and what drew me to the story of <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto" class="underline-link text-slate-950"> Satoshi Nakamoto</a>.        
         <br/>
         <br />
-        As a bona fide 90s kid, South Texas near the Texas/Mexico border served as my playground for the first ten years of my life.  I was happiest on the beach, surfing, fishing, golfing, and building things. I was a blessed kid and found joy in many things. 
+        As a bona fide 90s kid, South Texas near the Texas/Mexico border served as my playground for the first ten years of my life.  I was happiest on the beach, surfing, fishing, golfing, and building things but I found joy in many things. 
         </p>
 
         <div className="mx-auto w-full mb-24 flex flex-col items-center">
@@ -71,10 +71,10 @@ const AboutMe = () => {
             <figcaption className="font-light italic text-slate-600">playa avellanas, costa rica, circa 2022</figcaption>
 </div>
     <p className="leading-8 text-slate-700">
-        My family moved to central Texas in the early 2000s. As I made it through the ranks over the school years, I enjoyed every minute of it. I didn’t particularly enjoy the actual “school” part, but the social setting and the experiences along the way were special times.  High school passed by in a blink and I packed my bags and headed down the road to College Station, TX where I attended Texas A&M University. It was here where my interest in markets, finance, entrepreneurship and technology grew. Back then I wanted to be a trader on Wall Street. I spent most of my free time researching markets, exploring option strategies, and learning anything I could to gain an edge in the markets. 
+        My family moved to central Texas in the early 2000s. As I made it through the ranks over the school years, I enjoyed every minute of it. I didn’t particularly enjoy the actual “school” part, but the social setting and the experiences along the way were special times.  High school passed by in a blink and I packed my bags and headed down the road to College Station, TX where I attended Texas A&M University. It was here I discovered my interest in markets, finánce, entrepreneurship, and technology. Back then I wanted to be a trader on Wall Street. I spent most of my free time researching markets, exploring option strategies, and learning anything I could to gain an edge in the markets. 
         <br/>
         <br/>
-        After graduating university, I pursued a career in finance and technology. The tech startup lifestyle was me and where I’ve spent my time over the past decade. I would describe myself as the quintessential frugal minimalist, finding contentment in the simplicity of owning less and prioritizing financial prudence. I was the person who, over the years, perfected the art of couch surfing for extended periods, graciously relying on the hospitality of friends' couches. You know who you are, and I thank you.
+        After graduating university, I pursued a career in finánce and technology. The tech startup lifestyle was me and where I’ve spent my time over the past decade. I would describe myself as the quintessential frugal minimalist, finding contentment in the simplicity of owning less and prioritizing financial prudence. I was the person who, over the years, perfected the art of couch surfing for extended periods, graciously relying on the hospitality of friends' couches. You know who you are, and I thank you.
         </p>
         </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
@@ -82,7 +82,7 @@ const AboutMe = () => {
             Today
             </h1>
             <p className="leading-8 text-slate-700">
-            Currently work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world access to bitcoin.
+            I currently work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world access to bitcoin.
             </p>
         </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
@@ -90,7 +90,7 @@ const AboutMe = () => {
             Why Am I Here            
             </h1>
             <p className="leading-8 text-slate-700">
-            Rewinding back to that enchanting memory of my kindergarten circus, where I discovered the freedom to choose privacy. Today, there is an attack on our privacy, and that directly links to an attack on our freedoms. Our freedoms are being siphoned away through the gradual erosion of our monetary and property rights. Bitcoin fixes this. Bitcoin is true freedom - outside the control of any single person or persons. In much the same way the internet revolutionized the transfer, storage and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. The monopoly on money is being broken, and bitcoin is the separation of money and state. I believe there is nothing grander or more captivating going on in the world today, yet 99% remain oblivious or perplexed. That is why I am here. 
+            Rewinding back to that enchanting memory of my kindergarten circus, which I know you enjoyed so much, I discovered the freedom to choose privacy. Today, there is an attack on our privacy, and that directly links to an attack on our freedoms. Freedom is being siphoned away through the gradual erosion of our monetary and property rights. Bitcoin fixes this. In much the same way the internet revolutionized the transfer, storage and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. The monopoly on money is being broken, and bitcoin is the separation of money and state. I believe there is nothing grander or more captivating going on in the world today, yet 99% seem to remain oblivious or perplexed. That is why I am here. 
             </p>
         </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">

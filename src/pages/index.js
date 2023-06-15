@@ -10,12 +10,12 @@ export default function Home() {
 <div class="max-w-screen p-4 pt-12 flex-col items-center relative lg:mt-24 lg:ml-16 lg:mr-16 aboutMe">
   <div class="flex flex-col text-center mx-auto w-full md:w-1/2 xl:w-1/3 mb-18">
 
-    <h1 class="text-center font-bold text-3xl md:text-4xl mt-24 mb-1 text-slate-700">
+    <h1 class="text-left font-bold text-3xl md:text-4xl mt-24 mb-1 text-slate-700">
     Marc McKirahan
     </h1>
 
-    <p class="leading-8 mt-1 text-sm text-center text-slate-700">
-    &#8226; Perpetual Student &#8226; Doin' things since the 90s &#8226;
+    <p class="leading-8 mt-1 text-sm text-left text-slate-700">
+    Perpetual Student &#8226; Doin' things since the 90s
 
    </p>
 
