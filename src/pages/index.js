@@ -20,7 +20,7 @@ export default function Home() {
    </p>
 
     <p class="leading-8 mt-8 text-left text-slate-700">
-    I consider myself a perpetual student. I like doing things that mostly meet at the intersection of bitcoin, technology, economics, history, and finánce. With a deep-rooted passion for these fields, I enjoy exploring their dynamic relationships and uncovering new insights. As someone who naturally leans against the grain, I possess a unique lens through which I analyze and interpret evolving landscapes and the transformations Bitcoin has on society.
+    I am a perpetual student and I like doing things that meet at the intersection of bitcoin, technology, economics, history, and finánce. With a deep-rooted passion for these fields, I enjoy exploring their dynamic relationships and uncovering new insights. As someone who naturally leans against the grain, I possess a unique lens through which I analyze and interpret evolving landscapes and the transformations Bitcoin has on society.
     </p>
   
     <p class="leading-8 mt-4 mb-6 text-left text-slate-700">
