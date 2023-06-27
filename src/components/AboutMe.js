@@ -26,7 +26,7 @@ const AboutMe = () => {
 
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
             <figure className="p-8 bg-slate-200 mb-4 z-99">
-                <img src="https://media.licdn.com/dms/image/C4E03AQGPRZA9m18lDA/profile-displayphoto-shrink_400_400/0/1602986996229?e=1687392000&v=beta&t=KRfJDcrSv_AuV6w3ZMMVG0Z_Dg7nybJtT_sd_j2uDp8" 
+                <img src="https://media.licdn.com/dms/image/C4E03AQGPRZA9m18lDA/profile-displayphoto-shrink_800_800/0/1602986996229?e=1693440000&v=beta&t=S_i4aKiVbnhxvSDoo2yh7KET3dnzCfpMOVJn11AH0hI" 
                 className="shadow-slate-800 shadow-lg"/>
             </figure>
             <figcaption className="font-light italic text-slate-600">..and this is me in a suit</figcaption>
@@ -40,10 +40,10 @@ const AboutMe = () => {
         Several years back, as I sat in front of a few thousand coworkers during a live all-hands meeting, I was asked the question: “So Marc, what's your greatest weakness?”            
         <br />
         <br />
-        The room fell silent and as I mustered up the courage to confess, I leaned in wearing my finest deadpan expression and responded with, ‘Talking about myself’. Cue the collective sigh of relief from the crowd, that my long-held oversharing tendencies were finally out in the open.        
+        The room fell silent and as I mustered up the courage to confess, I leaned in wearing my finest deadpan expression (IYKYK) and responded with, ‘talking about myself’. Cue the collective sigh of relief from the crowd, that my long-held oversharing tendencies were finally out in the open.        
         <br/>
         <br />
-        I oftentimes find more interest in the things that aren't said, rather than the things that are. Which might explain why I am bad at communicating the enigma within. So here we are, sitting at the black-hole of my ‘about me’ bio and another attempt at weaving an intriguing narrative about my persona. 
+        I find more interest in the things that aren't said, rather than the things that are. Consistent with my strive to influence, and be influenced by actions, rather than words. I have always been more of a "let me show you, not tell you" kinda guy. So here we are, sitting at the black-hole of my ‘about me’ bio and an attempt at weaving an intriguing narrative about my identity. 
         <br/>
         <br />   
         So lets start with a short story I've never shared...
@@ -58,10 +58,10 @@ const AboutMe = () => {
         Fast forward to a year later, I executed perfectly on my plan. The crowd marveled at the majestic sight of the elephants, completely unaware of the hidden purpose behind my choice. Behind the costume's mask, I grinned mischievously, reveling in the satisfying secrecy of my mission accomplished, keeping my identity concealed.
         <br />   
         <br />
-        I have lived much of my life in this same way. I believe that in a world of captivating narratives and a kaleidoscope of perspectives, the unspoken stories are often the best. We live in a world driven by the relentless race to be heard, and maybe those competing are in the new rat race. Deep value isn't found there, but in the things that aren't for sale. The enigmatic paths are where real value is found and oftentimes the precipice of our most extraordinary discoveries. This is my nature, and what drew me to the story of <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto" class="underline-link text-slate-950"> Satoshi Nakamoto</a>.        
+        I have lived much of my life in this same way. I believe that in a world of captivating narratives and a kaleidoscope of perspectives, the unspoken stories are often the best. We live in a world driven by the relentless race to be heard. Maybe that's the new rat race. Deep value won't be found there, but in the things that aren't trying to be sold. The enigmatic paths are where real value is found and oftentimes the precipice of our most extraordinary discoveries. This is my nature, and one thing that drew me to <a href="https://bitcoin.org/bitcoin.pdf" class="underline-link text-slate-950"> Bitcoin </a> and <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto" class="underline-link text-slate-950"> Satoshi Nakamoto</a>.        
         <br/>
         <br />
-        As a bona fide 90s kid, South Texas near the Texas/Mexico border served as my playground for the first ten years of my life.  I was happiest on the beach, surfing, fishing, golfing, and building things but I found joy in many things. 
+        As a bona fide 90s kid, South Texas near the Texas/Mexico border served as my playground for the first ten years of my life.  I was happiest on the beach, surfing, fishing, golfing, and building things but I found joy in many activities. 
         </p>
 
         <div className="mx-auto w-full mb-24 flex flex-col items-center">
@@ -90,7 +90,7 @@ const AboutMe = () => {
             Why Am I Here            
             </h1>
             <p className="leading-8 text-slate-700">
-            Rewinding back to that enchanting memory of my kindergarten circus, which I know you enjoyed so much, I discovered the freedom to choose privacy. Today, there is an attack on our privacy, and that directly links to an attack on our freedoms. Freedom is being siphoned away through the gradual erosion of our monetary and property rights. Bitcoin fixes this. In much the same way the internet revolutionized the transfer, storage and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. The monopoly on money is being broken, and bitcoin is the separation of money and state. I believe there is nothing grander or more captivating going on in the world today, yet 99% seem to remain oblivious or perplexed. That is why I am here. 
+            Rewinding back to that enchanting memory of my kindergarten circus, which I know you enjoyed so much, I discovered the freedom to choose privacy. Today, our privacy is under attack, which directly corresponds to the deterioration of freedoms through the gradual erosion of monetary and property rights. Bitcoin fixes this. In much the same way the internet revolutionized the transfer, storage, and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value - the separation of money and state. There is nothing grander or more captivating going on in the world today, yet 99% seem to remain oblivious or perplexed. That is why I am here. 
             </p>
         </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
