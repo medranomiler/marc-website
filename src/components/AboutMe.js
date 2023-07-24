@@ -90,8 +90,13 @@ const AboutMe = () => {
             Why Am I Here            
             </h1>
             <p className="leading-8 text-slate-700">
-            Rewinding back to that enchanting memory of my kindergarten circus, which I know you enjoyed so much, I discovered the freedom to choose privacy. Today, our privacy is under attack, which directly corresponds to the deterioration of freedoms through the gradual erosion of monetary and property rights. Bitcoin fixes this. In much the same way the internet revolutionized the transfer, storage, and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value - the separation of money and state. There is nothing grander or more captivating going on in the world today, yet 99% seem to remain oblivious or perplexed. That is why I am here. 
+            Rewinding back to that enchanting memory of my kindergarten circus, which I know you enjoyed dearly, I discovered the freedom to choose privacy. Regrettably, in today's world, we find ourselves amidst the erosion of monetary and property rights, and one of the many unfortunate outcomes of this is the deterioration of privacy. Bitcoin fixes this. 
+            <br/>
+            In much the same way the internet revolutionized the transfer, storage, and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. There is nothing grander or more captivating going on in the world today, yet 99% seem to remain oblivious or perplexed. 
+            <br/>
+            That is why I am here.
             </p>
+
         </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
