@@ -103,6 +103,8 @@ const AboutMe = () => {
             What's Next
             </h1>
             <p className="leading-8 text-slate-700">
+            Above all else, the future is bright. 
+            <br/>
             Saddle up.
             </p>
             <div className="mx-auto w-full flex flex-col items-center">
