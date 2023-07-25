@@ -8,7 +8,9 @@ const Btcpairs = () => {
   return (
     <div className="max-w-screen py-36 p-4 flex flex-col items-center lg:mt-24 lg:ml-16 lg:mr-16 aboutMe">
       <div className="max-w-[800px] h-12 flex space-x-4 py-3 px-6 mb-4 text-slate-700">
-        DASHBOARD UNDER CONTRUCTION
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-16 text-slate-700">
+          DASHBOARD UNDER CONTRUCTION
+          </h1>
         <br/>
         <br/>
         <p>1D</p>
