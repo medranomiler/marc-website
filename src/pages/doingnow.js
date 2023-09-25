@@ -31,16 +31,10 @@ const Doingnow = () => {
           Refining my data/database skillset and exploring data visualization software and tools
         </li>
         <li class="my-4">
-          Spending time around others who are building on Bitcoin and Lightning
-        </li>
-        <li class="my-4">
           Aspiring software dev
         </li>
         <li class="my-4">
-          Research (bitcoin, finance, economics-the Austrian kind)
-        </li>
-        <li class="my-4">
-          Reading (send me recommendations)
+          Research & Reading
         </li>
       </ul>
     </div>
