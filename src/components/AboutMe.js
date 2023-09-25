@@ -22,7 +22,7 @@ const AboutMe = () => {
             <p className="leading-8 text-slate-700">
             The bulk of my career has been spent building businesses on the bleeding edge of technology, delighting clients, and learning from brilliant minds spanning the globe. Background predominately in leadership, management, and operations within the financial services & fintech industry.
             </p>
-        </div>
+     </div>
 
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
             <figure className="p-8 bg-slate-200 mb-4 z-99">
@@ -30,8 +30,7 @@ const AboutMe = () => {
                 className="shadow-slate-800 shadow-lg"/>
             </figure>
             <figcaption className="font-light italic text-slate-600">..and this is me in a suit</figcaption>
-        </div>
-
+    </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             Extended Bio...
@@ -48,7 +47,7 @@ const AboutMe = () => {
         <br />   
         The end.
         </p>
-
+</div>
         <div className="mx-auto w-full mb-24 flex flex-col items-center">
             <figure className="p-8 bg-slate-200 mb-4 z-99">
                 <Image src={costaricasurf} />
@@ -87,6 +86,7 @@ const AboutMe = () => {
             <br/>
             Saddle up.
             </p>
+        </div>
             <div className="mx-auto w-full flex flex-col items-center">
   <figure className="p-8 bg-slate-200 mb-3 z-99 mt-10">
             <Image src={beachwalk} />            
