@@ -43,9 +43,6 @@ const AboutMe = () => {
         <br/>
         <br />
         I often find more interest in the things that aren't said, rather than the things that are. Consistent with my strive to influence, and be influenced by actions, rather than words. I have always been more of a show you, not tell you kinda guy. So here we are, sitting at the black-hole of my ‘about me’ bio and yet another attempt at weaving an intriguing narrative about my identity. 
-        <br/>
-        <br />   
-        The end.
         </p>
 </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
@@ -60,17 +57,15 @@ const AboutMe = () => {
         <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             Today
         </h1>
-        <p className="leading-8 text-slate-700 mb-24">
+            <p className="leading-8 text-slate-700 mb-24">
             I currently work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world access to bitcoin.
-        </p>
+            </p>
     </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             Why Am I Here            
-            </h1>
-            <p className="leading-8 text-slate-700">
-            <br/>
-            <br/>
+        </h1>
+            <p className="leading-8 text-slate-700 mb-24">
             In much the same way the internet revolutionized the transfer, storage, and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. There is nothing grander or more captivating going on in the world today, yet most seem to remain oblivious or perplexed. 
             <br/>
             <br/>
