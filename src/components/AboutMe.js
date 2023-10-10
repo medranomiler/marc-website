@@ -53,14 +53,14 @@ const AboutMe = () => {
                 <Image src={costaricasurf}
                 className="shadow-slate-800 shadow-lg"/>
             </figure>
-            <figcaption className="font-light italic text-slate-600">playa avellanas, costa rica, circa 2022
-        </figcaption>
+            <figcaption className="font-light italic text-slate-600">playa avellanas, costa rica, circa 2022</figcaption>
 </div>
-        <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
+
+<div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             Today
             </h1>
-            <p className="leading-8 text-slate-700">
+        <p className="leading-8 text-slate-700 mb-24">
             I currently work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world access to bitcoin.
             </p>
         </div>
