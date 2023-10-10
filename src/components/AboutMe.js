@@ -53,7 +53,7 @@ const AboutMe = () => {
             <figcaption className="font-light italic text-slate-600">playa avellanas, costa rica, circa 2022</figcaption>
 </div>
 
-    <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
+    <div className="mx-auto w-full md:w-1/2 xl:w-1/3">
         <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             Today
         </h1>
