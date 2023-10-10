@@ -48,9 +48,10 @@ const AboutMe = () => {
         The end.
         </p>
 </div>
-        <div className="mx-auto w-full mb-24 flex flex-col items-center">
+        <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
             <figure className="p-8 bg-slate-200 mb-4 z-99">
-                <Image src={costaricasurf} />
+                <Image src={costaricasurf}
+                className="shadow-slate-800 shadow-lg"/>
             </figure>
             <figcaption className="font-light italic text-slate-600">playa avellanas, costa rica, circa 2022</figcaption>
 
@@ -69,7 +70,10 @@ const AboutMe = () => {
             <p className="leading-8 text-slate-700">
             <br/>
             <br/>
-            In much the same way the internet revolutionized the transfer, storage, and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. There is nothing grander or more captivating going on in the world today, yet 99% seem to remain oblivious or perplexed. 
+            In much the same way the internet revolutionized the transfer, storage, and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. There is nothing grander or more captivating going on in the world today, yet most seem to remain oblivious or perplexed. 
+            <br/>
+            <br/>
+            Bitcoin is a very big deal. I am here to help those once they are finally curious enough to ask the questions.
             <br/>
             <br/>
             </p>
