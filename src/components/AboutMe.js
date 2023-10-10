@@ -30,7 +30,7 @@ const AboutMe = () => {
                 className="shadow-slate-800 shadow-lg"/>
             </figure>
             <figcaption className="font-light italic text-slate-600">..and this is me in a suit</figcaption>
-    </div>
+        </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             Extended Bio...
@@ -53,8 +53,9 @@ const AboutMe = () => {
                 <Image src={costaricasurf}
                 className="shadow-slate-800 shadow-lg"/>
             </figure>
-            <figcaption className="font-light italic text-slate-600">playa avellanas, costa rica, circa 2022</figcaption>
-
+            <figcaption className="font-light italic text-slate-600">playa avellanas, costa rica, circa 2022
+        </figcaption>
+</div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             Today
