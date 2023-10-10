@@ -31,7 +31,7 @@ const AboutMe = () => {
             </figure>
             <figcaption className="font-light italic text-slate-600">..and this is me in a suit</figcaption>
         </div>
-        <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
+        <div className="mx-auto w-full md:w-1/2 xl:w-1/3">
             <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             Extended Bio...
             </h1>
@@ -80,10 +80,7 @@ const AboutMe = () => {
             What's Next
             </h1>
             <p className="leading-8 text-slate-700">
-            The future is bright!
-            <br/>
-            <br/>
-            Saddle up.
+            Remain unhurried. Stay present. Be patient.
             </p>
         </div>
             <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
