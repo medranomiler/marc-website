@@ -80,7 +80,12 @@ const AboutMe = () => {
             What's Next
             </h1>
             <p className="leading-8 text-slate-700">
-            Remain unhurried. Stay present. Be patient.
+            <br/>
+            Remain unhurried. 
+            <br/>
+            Stay present. 
+            <br/>
+            Be patient.
             </p>
         </div>
             <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
