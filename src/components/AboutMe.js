@@ -61,7 +61,7 @@ const AboutMe = () => {
             Today
         </h1>
             <p className="leading-8 text-slate-700 mb-24">
-            I currently work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world access to bitcoin.
+            I currently work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world simple and fast access to bitcoin.
             </p>
     </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3">
