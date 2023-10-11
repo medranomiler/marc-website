@@ -37,12 +37,15 @@ const AboutMe = () => {
             </h1>
         <p className="leading-8 text-slate-700 mb-24">
         Several years back, as I sat in front of a few thousand coworkers during a live all-hands meeting, I was asked the question: “So Marc, what's your greatest weakness?”            
-        <br />
-        <br />
+        <br/>
+        <br/>
         The room fell silent and as I mustered up the courage to confess, I leaned in wearing my finest deadpan expression (IYKYK) and responded with, ‘talking about myself’. Cue the collective sigh of relief from the crowd, that my long-held oversharing tendencies were finally out in the open.        
         <br/>
-        <br />
+        <br/>
         I often find more interest in the things that aren't said, rather than the things that are. Consistent with my strive to influence, and be influenced by actions, rather than words. I have always been more of a show you, not tell you kinda guy. So here we are, sitting at the black-hole of my ‘about me’ bio and yet another attempt at weaving an intriguing narrative about my identity. 
+        <br/>
+        <br/>
+        The end. 
         </p>
 </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
