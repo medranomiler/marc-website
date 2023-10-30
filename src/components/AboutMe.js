@@ -20,11 +20,12 @@ const AboutMe = () => {
             The TL;DR
         </h1>
         <p className="leading-8 text-slate-700">
-            The bulk of my career has been spent building businesses on the bleeding edge of technology, delighting clients, and learning from brilliant minds spanning the globe. Background predominately in finance, leadership, and operations within the financial services & fintech industries.
+        The bulk of my career has been spent building businesses on the bleeding edge of technology, delighting clients, and learning from brilliant minds spanning the globe. Background predominately in finance, leadership, and operations within the financial services & fintech industries. </p>
         <br/>
         <br/>
+        <p className="leading-8 text-slate-700">
         I'm preparing for a future where bitcoin transitions from being the smallest asset class today to emerging as the world's largest asset class over the next few decades. I find joy in guiding others through the reasons behind this, the inevitabilities we are likely to encounter as we approach this, and the implications. I also enjoy markets, valuations, research, and continually expanding my knowledge base.
-        <p/>
+        </p>
      </div>
 
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
