@@ -16,12 +16,14 @@ const AboutMe = () => {
             </p>
         </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
-            <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
+        <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             The TL;DR
-            </h1>
+        </h1>
             <p className="leading-8 text-slate-700">
-            The bulk of my career has been spent building businesses on the bleeding edge of technology, delighting clients, and learning from brilliant minds spanning the globe. Background predominately in leadership, management, and operations within the financial services & fintech industry.
-            </p>
+            The bulk of my career has been spent building businesses on the bleeding edge of technology, delighting clients, and learning from brilliant minds spanning the globe. Background predominately in finance, leadership, and operations within the financial services & fintech industries.             </p>
+        <br/>
+        <br/>
+            I'm preparing for a future where bitcoin transitions from being the smallest asset class today to emerging as the world's largest asset class over the next few decades. I find joy in guiding others through the reasons behind this, the inevitabilities we are likely to encounter as we approach this, and the implications. I also enjoy markets, valuations, research, and continually expanding my knowledge base.
      </div>
 
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
@@ -61,7 +63,7 @@ const AboutMe = () => {
             Today
         </h1>
             <p className="leading-8 text-slate-700 mb-24">
-            I currently work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world simple and fast access to bitcoin.
+            I work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world simple and fast access to bitcoin.
             </p>
     </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3">
@@ -72,7 +74,7 @@ const AboutMe = () => {
             In much the same way the internet revolutionized the transfer, storage, and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. There is nothing grander or more captivating going on in the world today, yet most seem to remain oblivious or perplexed. 
             <br/>
             <br/>
-            Bitcoin is a very big deal. I am here to help those once they are finally curious enough to ask the questions.
+            I am here to help those once they are curious enough to ask the questions.
             <br/>
             <br/>
             </p>
