@@ -12,18 +12,19 @@ const AboutMe = () => {
                 About
             </h1>
             <p className="leading-8 text-slate-700">
-            As a born and raised Texan, I love freedom, beef, and the word y'all. Growing up, the things that interested me most were typically outside and in the sun. Despite being a “grown up” today, I still spend every chance I get, outside and in the sun.            
+            As a born and raised Texan, I love freedom, truth, beef, and Jesus. Growing up, the things that interested me most were typically outside and in the sun. Despite being a “grown up” today, I still spend every chance I get, outside and in the sun.            
             </p>
-        </div>
+     </div>
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
         <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
             The TL;DR
         </h1>
-            <p className="leading-8 text-slate-700">
+        <p className="leading-8 text-slate-700">
             The bulk of my career has been spent building businesses on the bleeding edge of technology, delighting clients, and learning from brilliant minds spanning the globe. Background predominately in finance, leadership, and operations within the financial services & fintech industries.             </p>
         <br/>
         <br/>
             I'm preparing for a future where bitcoin transitions from being the smallest asset class today to emerging as the world's largest asset class over the next few decades. I find joy in guiding others through the reasons behind this, the inevitabilities we are likely to encounter as we approach this, and the implications. I also enjoy markets, valuations, research, and continually expanding my knowledge base.
+        <p/>
      </div>
 
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
