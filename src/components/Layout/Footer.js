@@ -42,8 +42,8 @@ const Footer = () => {
             <p className="font-bold text-xs text-slate-700">About</p>
           </Link>
 
-          <Link href="/justforfun" className="flex items-center">
-            <p className="text-right text-xs text-slate-700 hover:text-slate-950">Just For Fun</p>
+          <Link href="/btcpairs" className="flex items-center">
+            <p className="text-right text-xs text-slate-700 hover:text-slate-950">BTC Pairs</p>
             <CgArrowLongRight className="w-4 h-auto ml-2 text-slate-700" />
           </Link>
 
@@ -52,7 +52,7 @@ const Footer = () => {
       )}
 
 
-      {router.pathname === "/justforfun" && (
+      {router.pathname === "/btcpairs" && (
         <div className="flex justify-between space-x-2">
 
           <Link href="/about" className="flex items-center">
@@ -60,8 +60,8 @@ const Footer = () => {
             <p className="text-xs text-slate-700 hover:text-slate-950">About</p>
           </Link>
 
-          <Link href="/justforfun" className="flex items-center">
-            <p className="font-bold text-xs text-slate-700">Just For Fun</p>
+          <Link href="/btcpairs" className="flex items-center">
+            <p className="font-bold text-xs text-slate-700">BTC Pairs</p>
           </Link>
 
           <Link href="/doingnow" className="flex items-center">
@@ -75,9 +75,9 @@ const Footer = () => {
       {router.pathname === "/doingnow" && (
         <div className="flex justify-between space-x-2">
 
-          <Link href="/justforfun" className="flex items-center">
+          <Link href="/btcpairs" className="flex items-center">
             <CgArrowLongLeft className="w-4 h-auto mr-2 text-slate-700" />
-            <p className="text-xs text-slate-700 hover:text-slate-950">Just For Fun</p>
+            <p className="text-xs text-slate-700 hover:text-slate-950">BTC Pairs</p>
           </Link>
 
           <Link href="/doingnow" className="flex items-center">
