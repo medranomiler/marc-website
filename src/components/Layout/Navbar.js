@@ -17,7 +17,7 @@ const montserrat = Montserrat({
 
 const navigation = [
   { name: 'About', href: '/about', current: false },
-  { name: 'Bitcoin Currency Pair', href: '/btcpair', current: false },
+  { name: 'Just For Fun', href: '/justforfun', current: false },
   { name: 'Doing Now', href: '/doingnow', current: false },
   { name: 'Thoughts', href: '/thoughts', current: false },
   { name: 'Collaborate', href: '/collaborate', current: false },
