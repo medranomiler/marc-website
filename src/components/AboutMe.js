@@ -4,6 +4,7 @@ import beachwalk from "../images/beachwalk.jpg"
 import Image from "next/image"
 
 const AboutMe = () => {
+    
   return (
       <div className="min-h-screen p-4 sm:p-8 sm:py-36 py-36 flex flex-col items-left z-99">
 
