@@ -19,9 +19,9 @@ const navigation = [
   { name: 'About', href: '/about', current: false },
   { name: 'Bitcoin Currency Pairs', href: '/btcpairs', current: false },
   { name: 'Doing Now', href: '/doingnow', current: false },
-  { name: 'Thoughts', href: '/thoughts', current: false },
+  { name: 'Thoughts', href: 'https://marcmckirahan.substack.com/', current: false },
   { name: 'Collaborate', href: '/collaborate', current: false },
-]
+];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
