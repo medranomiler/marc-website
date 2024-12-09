@@ -18,9 +18,17 @@ const Doingnow = () => {
     </h1>
     <div>
       <ul class="leading-8 mt-1 text-left list-disc text-slate-700">
-        <li class="my-4">
-          Currently reside at Kraken Digital Asset Exchange. My team works to ensure we remain the most client-centric and secure exchange in the world
-        </li>
+      <li className="my-4">
+        Currently reside at{' '}
+        <a 
+          href="https://www.kraken.com/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 underline"
+        >
+          Kraken Digital Asset Exchange
+        </a>. My team works to ensure we remain the most client-centric and secure exchange in the world.
+      </li>
         <li class="my-4">
           Satisfying my passion for finánce and preparing to obtain the CFA certification
         </li>
