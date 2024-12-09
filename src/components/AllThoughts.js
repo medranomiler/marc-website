@@ -8,7 +8,7 @@ const AllThoughts = () => {
   return (
 <>
   <div className="max-w-screen py-36 p-4 relative flex flex-col items-center lg:mt-24 lg:ml-16 lg:mr-16 aboutMe">
-      <h1 className="font-bold text-3xl sm:text-4xl mb-16 text-slate-700">Thoughts</h1>
+      <h1 className="font-bold text-3xl sm:text-4xl mb-16 text-slate-700">I sometimes publish my thoughts on Substack</h1>
     {loading ? <p>Loading thoughts </p> : (<>
         {Object.keys(thoughtData).length > 0 && thoughtData.map((thought) => {
           return (
