@@ -1,7 +1,9 @@
 import React from 'react'
 import costaricasurf from "../images/costaricasurf.jpeg"
 import beachwalk from "../images/beachwalk.jpg"
+import suits from "../images/suits.jpg"
 import Image from "next/image"
+
 
 const AboutMe = () => {
   return (
@@ -30,7 +32,7 @@ const AboutMe = () => {
 
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
             <figure className="p-8 bg-slate-200 mb-4 z-99">
-                <img src="https://media.licdn.com/dms/image/C4E03AQGPRZA9m18lDA/profile-displayphoto-shrink_400_400/0/1602986996229?e=1700092800&v=beta&t=vN1qn8q28OtIIkbVv8RIboYIUfjfqfFRqIt1q2LmYHE" 
+                <Image src={suits}
                 className="shadow-slate-800 shadow-lg"/>
             </figure>
             <figcaption className="font-light italic text-slate-600">..and this is me in a suit</figcaption>
