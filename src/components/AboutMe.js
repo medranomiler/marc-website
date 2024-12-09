@@ -14,20 +14,17 @@ function AboutMe() {
                     About
                 </h1>
                 <p className="leading-8 text-slate-700">
-                    As a born and raised Texan, I love freedom, truth, beef, and Jesus. Growing up, the things that interested me most were typically outside and in the sun. Despite being a “grown up” today, I still spend every chance I get, outside and in the sun.
-                </p>
+                I’m a proud Texan, raised with a love for freedom, truth, faith, and beef. Growing up, I spent most of my time outdoors, and not much has changed today. Even as an adult, I find any excuse to be outside—it’s my way of staying grounded and connected with a few of the things that are still natural and real.                 </p>
             </div>
             <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24">
                 <h1 className="text-2xl md:text-3xl font-bold mb-12 text-center text-slate-700">
                     The TL;DR
                 </h1>
                 <p className="leading-8 text-slate-700">
-                    The bulk of my career has been spent building businesses on the bleeding edge of technology, delighting clients, and learning from brilliant minds spanning the globe. Background predominately in finance, leadership, and operations within the financial services & fintech industries. </p>
-                <br />
+                My career has been defined by driving innovation in financial services, building businesses at the forefront of technology, and delivering exceptional client outcomes. With a deep passion for financial services, leadership, sales, and operational strategy, I have successfully navigated complexities of the fintech sector, achieving measurable impact and growth while collaborating with global industry leaders.                <br />
                 <br />
                 <p className="leading-8 text-slate-700">
-                    I'm preparing for a future where bitcoin transitions from being the smallest asset class today to emerging as the world's largest asset class over the next few decades. I find joy in guiding others through the reasons behind this, the inevitabilities we are likely to encounter as we approach this, and the implications. I also enjoy markets, valuations, research, and continually expanding my knowledge base.
-                </p>
+                I am preparing for a future where Bitcoin transitions from being one of the smallest asset classes today to becoming one of the largest in the world over the coming decades. I enjoy guiding others through the reasoning behind this transformation, the challenges and inevitabilities we may encounter, and the far-reaching implications. My interests also include markets, valuations, and research, and I remain committed to continuously expanding my knowledge and expertise.                </p>
             </div>
 
             <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
