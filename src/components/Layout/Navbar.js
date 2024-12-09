@@ -64,16 +64,33 @@ export default function Navbar() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12 lg:flex-wrap">
-          {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className={classNames(
-              item.current ? 'font-bold text-slate-700' : 'text-slate-700 hover:font-bold',
-              'rounded-md px-3 py-1 lg:px-3 lg:py-2 text-sm'
-            )}
-            aria-current={item.current ? 'page' : undefined}
-          >
-            {item.name}
-            </Link>
-          ))}
+  {navigation.map((item) => (
+    item.href.startsWith('http') ? (
+    <a
+      key={item.name}
+      href={item.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={classNames(
+        item.current ? 'font-bold text-slate-700' : 'text-slate-700 hover:font-bold',
+        'rounded-md px-3 py-1 lg:px-3 lg:py-2 text-sm'
+      )}
+    >
+      {item.name}
+    </a>
+  ) : (
+    <Link
+      key={item.name}
+      href={item.href}
+      className={classNames(
+        item.current ? 'font-bold text-slate-700' : 'text-slate-700 hover:font-bold',
+        'rounded-md px-3 py-1 lg:px-3 lg:py-2 text-sm'
+      )}
+    >
+      {item.name}
+    </Link>
+  )
+))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end text-slate-700">
           <Link href="https://www.linkedin.com/in/marcmckirahan/">
@@ -111,16 +128,29 @@ export default function Navbar() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-cyan-300/10">
               <div className="space-y-2 py-6">
-                {navigation.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-slate-700 hover:bg-gray-50"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
+{navigation.map((item) => (
+  item.href.startsWith('http') ? (
+    <a
+      key={item.name}
+      href={item.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={() => setMobileMenuOpen(false)}
+      className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-slate-700 hover:bg-gray-50"
+    >
+      {item.name}
+    </a>
+  ) : (
+    <Link
+      key={item.name}
+      href={item.href}
+      onClick={() => setMobileMenuOpen(false)}
+      className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-slate-700 hover:bg-gray-50"
+    >
+      {item.name}
+    </Link>
+  )
+))}
               </div>
               <div className="py-6">
                 {/* {!loggedIn? <Link
