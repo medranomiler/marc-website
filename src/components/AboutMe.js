@@ -32,7 +32,7 @@ const AboutMe = () => {
 
         <div className="mx-auto w-full md:w-1/2 xl:w-1/3 mb-24 flex flex-col items-center">
             <figure className="p-8 bg-slate-200 mb-4 z-99">
-                <Image src={suits}
+                <Image src={costaricasurf}
                 className="shadow-slate-800 shadow-lg"/>
             </figure>
             <figcaption className="font-light italic text-slate-600">..and this is me in a suit</figcaption>
