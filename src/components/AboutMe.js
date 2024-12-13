@@ -80,10 +80,9 @@ function AboutMe() {
                     Why Am I Here
                 </h2>
                 <p className="leading-8 text-slate-700">
-                    In much the same way the internet revolutionized the transfer, storage, and communication of data, bitcoin is revolutionizing the transfer, storage, and communication of value. There is nothing grander or more captivating going on in the world today, yet most seem to remain oblivious or perplexed.
+                Just as the internet transformed the way we transfer, store, and communicate information, Bitcoin is transforming the way we transfer, store, and communicate value. It represents one of the most profound and transformative innovations of our time, yet most remain oblivious or unaware of its implications.                    <br />
                     <br />
-                    <br />
-                    I am here to help those once they are curious enough to ask the questions.
+                    I am here to help those curious enough to start asking the questions.
                 </p>
             </section>
 
