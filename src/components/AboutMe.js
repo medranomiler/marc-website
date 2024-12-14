@@ -71,7 +71,7 @@ function AboutMe() {
                     Today
                 </h2>
                 <p className="leading-8 text-slate-700">
-                    I work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal is to provide everyone in the world simple and fast access to bitcoin.
+                    I work for Kraken Exchange, one of the largest bitcoin exchanges in the world. Founded in 2011, our platform has garnered recognition for its unwavering commitment to user security, privacy, and upholding the fundamental cypherpunk libertarian principles that lie at the core of bitcoin's ideology. With support in over 190 countries, my goal in joining Kraken was to provide the most people globally with a fast and simple tool to access the superior asset of our time--bitcoin.
                 </p>
             </section>
 
